@@ -27,10 +27,10 @@ Edad recomendada: 1
 Monto a pagar por el peluche: $54.00
  */
 
-    import Cl_Juguete from "./CL_Juguete.js";
+    import Cl_Juguete from "./Cl_Juguete.js";
 
     let juge1 = new Cl_Juguete("carrito", 2, 10, 2);
-    let juge2 = Cl_Juguete("peluche", 3, 20, 1);
+    let juge2 = new Cl_Juguete("peluche", 3, 20, 1);
 
     
     

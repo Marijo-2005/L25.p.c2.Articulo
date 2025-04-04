@@ -1,4 +1,4 @@
-import Cl_Articulo from "./CL_Articulo.js";
+import Cl_Articulo from "./Cl_Articulo.js";
 
     export default class Cl_Juguete extends Cl_Articulo {
     constructor(nombre, cantidad, precioBase, edad) {
